@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-#field{
+.field{
     display: flex;
     margin: 20px 40px;
 }
 
-#field input{
+.field input{
     display: none;
 }
 
@@ -18,7 +18,7 @@ p{
     font-size: 30px;
 }
 
-.field_1 label{
+#field_1 label{
     display: block;
     width: 150px;
     height: 50px;
@@ -28,7 +28,7 @@ p{
     position: relative;
 }
 
-.field_2 label{
+#field_2 label{
     display: block;
     width: 150px;
     height: 50px;
@@ -39,7 +39,7 @@ p{
     position: relative;
 }
 
-.field_3 label{
+#field_3 label{
     display: block;
     width: 130px;
     height: 50px;
@@ -50,7 +50,7 @@ p{
     position: relative;
 }
 
-.field_4 label{
+#field_4 label{
     display: block;
     width: 130px;
     height: 50px;
@@ -61,7 +61,7 @@ p{
     position: relative;
 }
 
-.field_1 label::after{
+#field_1 label::after{
     content: "OFF";
     width: 72px;
     height: 46px;
@@ -75,7 +75,7 @@ p{
     
 }
 
-.field_2 label::after{
+#field_2 label::after{
     content: "OFF";
     width: 72px;
     height: 48px;
@@ -87,7 +87,7 @@ p{
     text-align: center;
 }
 
-.field_3 label::after{
+#field_3 label::after{
     content: "";
     width: 78px;
     height: 48px;
@@ -99,7 +99,7 @@ p{
     text-align: center;
 }
 
-.field_4 label::after{
+#field_4 label::after{
     content: "Вкл";
     width: 78px;
     height: 48px;
@@ -111,38 +111,38 @@ p{
     text-align: center;
 }
 
-.field_1 input:checked+label{
+#field_1 input:checked+label{
     background-color: grey;
 }
 
-.field_2 input:checked+label{
+#field_2 input:checked+label{
     background-color: white;
 }
 
-.field_3 input:checked+label{
+#field_3 input:checked+label{
     background-color: white;
 }
 
-.field_4 input:checked+label{
+#field_4 input:checked+label{
     background-color: #FFBD33;
 }
 
-.field_1 input:checked+label::after{
+#field_1 input:checked+label::after{
     left: 75px;
     content: "ON";
 }
 
-.field_2 input:checked+label::after{
+#field_2 input:checked+label::after{
     left: 75px;
     content: "ON";
 }
 
-.field_3 input:checked+label::after{
+#field_3 input:checked+label::after{
     left: 50px;
     content: "Откл";
 }
 
-.field_4 input:checked+label::after{
+#field_4 input:checked+label::after{
     left: 50px;
     content: "";
 }
